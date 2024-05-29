@@ -1,7 +1,8 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from './assets/logo.svg';
-import logo from './assets/logo2.svg';
+// import logogradient from './assets/logo.svg';
+// import logo from './assets/logo2.svg';
+import logo from './assets/strawhat.png';
 // Profile Image
 import profile from './assets/profile.png';
 // Tech stack images
@@ -19,6 +20,9 @@ import git from './assets/techstack/git.png';
 import npm from './assets/techstack/npm.png';
 import postman from './assets/techstack/postman.png';
 import figma from './assets/techstack/figma.png';
+import nodejs from './assets/techstack/Nodejs.png';
+import mysql from './assets/techstack/Mysql.png';
+import python from './assets/techstack/Python.png';
 // Porject Images
 import projectImage1 from './assets/projects/project1.jpg';
 import projectImage2 from './assets/projects/project2.jpg';
@@ -29,66 +33,67 @@ import projectImage6 from './assets/projects/project6.jpg';
 
 // Logos
 export const logos = {
-  logogradient: logogradient,
   logo: logo,
 };
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: 'Pavan MG',
-  tagline: 'I build things for web',
+  name: 'David Isikwe',
+  tagline: "and I'm a UX Engineer",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `As a lifelong learner in the tech space, I am particularly interested in front-end development, UI/UX design, and artificial intelligence/machine learning. I view myself as a "generalist" aiming to leverage my background in web and game development to create impactful software and infrastructure systems for my community.
+
+  I have developed a broad skill set that includes agile development, software requirements gathering, risk assessment, gap analyses, road mapping, technical troubleshooting, and automation techniques. My adaptable and eager mindset drives me to continuously expand my skills and gain new professional experiences that benefit the community wherever I go.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: 'https://www.linkedin.com/',
-  github: 'https://www.github.com/',
-  twitter: 'https://twitter.com/',
-  instagram: 'https://www.instagram.com/',
+  linkdein: 'https://www.linkedin.com/in/david-isikwe-a47439231',
+  github: 'https://github.com/davidisikwe',
+  medium: 'https://medium.com/@disikwe',
 };
 
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: 'Frontend Web Developer',
-    Company: `Company Name here`,
-    Location: 'Bengaluru',
+    Position: 'Research Intern',
+    Company: `University of South Dakota, Biomedical Engineering Department`,
+    Location: 'Vermillion, SD',
     Type: 'Full Time',
-    Duration: 'Sep 2021 - Dec 2021',
+    Duration: 'May 2024 - Present',
   },
   {
-    Position: 'Internship',
-    Company: `Company Name here`,
-    Location: 'Bengaluru',
-    Type: 'Internship',
-    Duration: 'Sep 2021 - Dec 2021',
+    Position: 'Student programmer',
+    Company: `University of South Dakota`,
+    Location: 'Vermillion, SD',
+    Type: 'Full Time',
+    Duration: 'May 2024 - Aug 2024',
   },
   {
-    Position: 'Internship',
-    Company: `Company Name here`,
-    Location: 'Bengaluru',
-    Type: 'Internship',
-    Duration: 'Sep 2021 - Dec 2021',
+    Position: 'Student programmer',
+    Company: `University of South Dakota`,
+    Location: 'Vermillion, SD',
+    Type: 'Part Time',
+    Duration: 'Jan 2022 - Present',
   },
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: 'Frontend Development',
-    Company: 'Udemy, YouTube, Google, Medium',
+    Position: 'Mobile & Web UI/UX Design',
+    Company: 'Udemy',
     Location: 'Online',
     Type: 'Full Time',
-    Duration: 'Jan 2022 - Present',
+    Duration: 'May 2024 - Present',
   },
   {
-    Position: 'Bachelor in Electronics & Communication',
-    Company: `Your College Name here`,
-    Location: 'Bengaluru',
+    Position:
+      'Bachelor of Science in Computer Science with minor in Mathematics',
+    Company: `University of South Dakota`,
+    Location: 'Vermillion, SD',
     Type: 'Full Time',
-    Duration: 'Aug 2020 - Present',
+    Duration: 'Sept 2021 - Present',
   },
 ];
 
@@ -108,6 +113,9 @@ export const techStackDetails = {
   git: git,
   github: github,
   figma: figma,
+  nodejs: nodejs,
+  mysql: mysql,
+  python: python,
 };
 
 // Enter your Project Details here
