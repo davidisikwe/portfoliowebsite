@@ -20,6 +20,8 @@ function Technologies() {
     nodejs,
     mysql,
     python,
+    mongoDb,
+    express
   } = techStackDetails;
   return (
     <main className='container mx-auto max-width pt-10 pb-20 '>
@@ -32,13 +34,15 @@ function Technologies() {
         </p>
       </section>
       <section className='grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6'>
-        <img src={html} title='html' alt='' />
+        <img src={html} title='HTML' alt='' />
         <img src={css} title='CSS' alt='' />
         <img src={js} title='JavaScript' alt='' />
         <img src={react} title='React' alt='' />
         <img src={nodejs} title='Nodejs' alt='' />
         <img src={mysql} title='Mysql' alt='' />
         <img src={python} title='Mysql' alt='' />
+        <img src={mongoDb} title='MongoDb' alt=''/>
+        <img src={express} title='Express' alt=''/>
       </section>
       <section>
         <h1 className='text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold'>

@@ -23,6 +23,8 @@ import figma from './assets/techstack/figma.png';
 import nodejs from './assets/techstack/Nodejs.png';
 import mysql from './assets/techstack/Mysql.png';
 import python from './assets/techstack/Python.png';
+import mongoDb from './assets/techstack/mongodb-512.png';
+import express from './assets/techstack/express-logo.png';
 // Porject Images
 import projectImage1 from './assets/projects/project1.jpg';
 import projectImage2 from './assets/projects/project2.jpg';
@@ -116,6 +118,8 @@ export const techStackDetails = {
   nodejs: nodejs,
   mysql: mysql,
   python: python,
+  mongoDb: mongoDb,
+  express: express
 };
 
 // Enter your Project Details here
